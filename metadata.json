@@ -1,0 +1,5 @@
+{
+  "name": "Copy of AI Design Tool MVP",
+  "description": "A high-performance, AI-driven vector design tool with a decoupled architecture. Features an infinite canvas, command-based editing, and Generative AI for shape creation.",
+  "requestFramePermissions": []
+}
