@@ -23,6 +23,7 @@ export default defineConfig({
   },
   renderer: {
     root: '.',
+    base: './',
     plugins: [react()],
     build: {
       outDir: 'out/renderer',

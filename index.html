@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://fonts.googleapis.com https://fonts.gstatic.com data: blob:;" />
+    <!-- Adjusted CSP to allow connections to local dev server (ws) and scripts -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://fonts.googleapis.com https://fonts.gstatic.com data: blob: ws:;" />
     <title>AI Design Tool</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
